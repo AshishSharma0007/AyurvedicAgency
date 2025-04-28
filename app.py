@@ -128,19 +128,6 @@ def more_info(a):
     data = requests.get(url).json()
     return data["request"]["search_url"]
 
-def add_bg_from_url():
-    st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://2.bp.blogspot.com/-GCSj6LSo4hg/XL7idXULnUI/AAAAAAAAACQ/YYAr9Tby0ikN6fERQqrjPnVkliSVASiYQCLcBGAs/s1600/ayurveda-background-3.jpg");
-             background-attachment: fixed;
-             background-size: cover
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
 def main():
     
     add_bg_from_url()
