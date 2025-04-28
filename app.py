@@ -130,7 +130,6 @@ def more_info(a):
 
 def main():
     
-    add_bg_from_url()
     
     st.markdown('<h1 style="color:black;">AYURVEDIC AGENCY</h1>', unsafe_allow_html=True)
 
